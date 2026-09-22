@@ -1,33 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Football</title>
+#include <stdio.h>
 
-    <style>
-        div {
-            color: blue;
-            background-color: lightgray;
-            font-size: 20px;
-            font-family: Arial;
-            font-weight: bold;
-            text-align: center;
-            padding: 20px;
-            margin: 20px;
-            border: 2px solid black;
-            border-radius: 10px;
-        }
-    </style>
-</head>
-
-<body>
-
-    <div>
-        Football is one of the most popular sports in the world. It is played
-        between two teams, with each team trying to score goals by putting the
-        ball into the opponent's goal. Football requires teamwork, speed,
-        skill, discipline, and good communication. It is enjoyed by millions
-        of people around the world.
-    </div>
-
-</body>
-</html>
+int main() 
+{
+    printf("Hello World!");
+    return 0;
+}
